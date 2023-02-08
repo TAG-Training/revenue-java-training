@@ -1,5 +1,9 @@
 package com.accenture.tagtrainingspring.patient;
 
+import org.springframework.stereotype.Component;
+
+@Component
+
 public class Patient {
     String patientName, DOB, patientGender;
     int patientID;

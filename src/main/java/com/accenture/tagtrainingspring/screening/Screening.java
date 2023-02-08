@@ -1,6 +1,9 @@
 package com.accenture.tagtrainingspring.screening;
 
 import com.accenture.tagtrainingspring.patient.Patient;
+import org.springframework.stereotype.Component;
+
+@Component
 
 public class Screening {
     int ScreeningID;
